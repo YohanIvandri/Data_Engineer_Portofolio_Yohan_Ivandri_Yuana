@@ -32,7 +32,6 @@ Proyek ini menggunakan **Docker** agar lingkungan pengembangan dan eksekusi pipe
    Airflow dijalankan dalam beberapa container:
    - webserver
    - scheduler
-   - worker (jika menggunakan Celery)
    - postgres (metadata database)
    - airflow-init
 
