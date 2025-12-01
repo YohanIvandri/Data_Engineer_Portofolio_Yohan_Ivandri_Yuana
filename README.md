@@ -41,11 +41,4 @@ Proyek ini menggunakan **Docker** agar lingkungan pengembangan dan eksekusi pipe
 ### **File Docker yang Digunakan**
 - **docker-compose.yml**  
   Mengatur service Airflow (scheduler, webserver, worker, postgres).
-- **Dockerfile (opsional)**  
-  Digunakan jika ada dependency tambahan di dalam ETL.
-
-### **Cara Menjalankan Airflow dengan Docker**
-1. Clone repository
-2. Masuk ke folder project
-3. Jalankan perintah:
 
