@@ -44,3 +44,22 @@ The project demonstrates practical skills in:
   - SQLite database (`db/Banks.db`)
 - Executes SQL queries for validation and analysis
 
+---
+
+## 🎯 Key Learnings
+
+- Designed a **modular ETL pipeline** by separating extract, transform, and load logic for better maintainability and scalability
+- Handled **real-world scraped data**, including HTML inconsistencies and numeric data cleaning
+- Used **Pandas with SQLite** to perform lightweight analytical queries
+- Implemented **structured logging** to track each stage of the data pipeline execution
+
+---
+
+## 🚀 Future Improvements
+
+- Add **exception handling and retry mechanisms** to improve pipeline reliability
+- Parameterize data sources and file paths for better configurability
+- Replace SQLite with **PostgreSQL** for production-grade storage
+- **Containerize the pipeline using Docker** for environment consistency
+- Schedule the pipeline using **Airflow or cron** for automation
+
